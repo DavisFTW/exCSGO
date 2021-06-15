@@ -2,6 +2,7 @@
 #include <Windows.h>
 #include "MemoryManager.h"
 
+// HOLY FUCK THIS IS BAD NO ERROR HANDLING AT ALL
 
 namespace memory
 {
