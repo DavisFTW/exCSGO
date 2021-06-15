@@ -7,7 +7,7 @@ void player::getLocalBasePTR(MemoryManager& obj)
 
 void player::getLocalPlayerData(MemoryManager& obj)
 {
-	EntityStruct = memory::readMem<playerStruct>(localPlayerData::baseLocalPlayer, obj.getHandle());   // i have no idea how to fix the "stack limit" exceeded  
+	EntityStruct = memory::readMem<playerStruct>(localPlayerData::baseLocalPlayer, obj.getHandle());   // i have no idea how to fix the "stack limit" exceeded, its just straight bullshit with vs
 
 	std::cout << EntityStruct.health << std::endl;
 }
